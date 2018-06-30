@@ -44,7 +44,7 @@ const unsigned char myBitmap [] PROGMEM = {
 void loop() {
   display.clearDisplay(); 
 
-  display.drawBitmap(x, 0, myBitmap,48, 32, WHITE);
+  display.drawBitmap(0, 0, myBitmap,48, 32, WHITE);
 
   display.display();
   
