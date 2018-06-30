@@ -7,6 +7,7 @@
  * Arduino D2 a SW
  * 
  * Guillermo Sampallo
+ * https://github.com/gsampallo/guiajuego
  */
 #include <SPI.h>
 #include <Wire.h>
