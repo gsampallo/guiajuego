@@ -79,12 +79,14 @@ void loop() {
   }
   
   if(imagen == 1) {
-	display.drawBitmap(0, 0, myBitmap1,48, 32, WHITE);
+	  display.drawBitmap(0, 0, myBitmap1,48, 32, WHITE);
   } else if(imagen == 2) {
-	display.drawBitmap(0, 0, myBitmap2,48, 32, WHITE);
+	  display.drawBitmap(0, 0, myBitmap2,48, 32, WHITE);
   } else if(imagen == 3) {
-	display.drawBitmap(0, 0, myBitmap3,48, 32, WHITE);
+	  display.drawBitmap(0, 0, myBitmap3,48, 32, WHITE);
   }
+  imagen++;
+  
   display.display();
   
   delay(50);
