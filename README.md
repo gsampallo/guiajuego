@@ -36,3 +36,12 @@ Las imagenes utilizadas se encuentran en la carpeta "imagenes".
 Intercalamos las imagenes en cada iteracion del juego, cuando llegamos a la ultima volvemos a mostrar la primer imagen del grupo.
 
 [![Video](https://img.youtube.com/vi/XTn7QsnC1Xo/0.jpg)](https://www.youtube.com/watch?v=XTn7QsnC1Xo)
+
+05-07-2018
+**********
+guia4_asteroides
+
+Trabajamos en un archivo independiente el manejo de los asteroides y de como vamos a ir generandolos en el tiempo antes de integrarlos al juego. Utilizamos la tecnica de la animacion del capitulo anterior, pero le sumamos el movimiento sobre el eje X, de forma que en cada ciclo del juego se acerquen a la nave.
+
+[![Video](https://img.youtube.com/vi/kkq6B8eZpTI/0.jpg)](https://www.youtube.com/watch?v=kkq6B8eZpTI)
+
