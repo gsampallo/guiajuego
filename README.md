@@ -45,3 +45,15 @@ Trabajamos en un archivo independiente el manejo de los asteroides y de como vam
 
 [![Video](https://img.youtube.com/vi/kkq6B8eZpTI/0.jpg)](https://www.youtube.com/watch?v=kkq6B8eZpTI)
 
+
+08-07-2018
+**********
+guia5_asteroides_logica
+
+Contamos los asteroides que van pasando y cuando llegamos a la cantidad que generamos, volvemos a generar nuevos asteroides.
+Tenemos que tener en cuenta que la funcion drawBitmap (copio tal cual una de las lineas)
+	display.drawBitmap(x, y, asteroide2,16, 16, WHITE);
+	
+Recibe los puntos x,y para dibujar en la pantalla, y el bitmap se extiende hasta (x+16),(y+16); a continuacion un breve esquema.
+
+![alt text](https://raw.githubusercontent.com/gsampallo/guiajuego/master/asteroides.png "Animacion")
