@@ -56,4 +56,7 @@ Tenemos que tener en cuenta que la funcion drawBitmap (copio tal cual una de las
 	
 Recibe los puntos x,y para dibujar en la pantalla, y el bitmap se extiende hasta (x+16),(y+16); a continuacion un breve esquema.
 
-![alt text](https://raw.githubusercontent.com/gsampallo/guiajuego/master/asteroides.png "Animacion")
+![alt text](https://raw.githubusercontent.com/gsampallo/guiajuego/master/asteroides.png "Asteroides")
+
+
+[![Video](https://img.youtube.com/vi/aAHSvF9e9S8/0.jpg)](https://www.youtube.com/watch?v=aAHSvF9e9S8)
