@@ -60,3 +60,10 @@ Recibe los puntos x,y para dibujar en la pantalla, y el bitmap se extiende hasta
 
 
 [![Video](https://img.youtube.com/vi/aAHSvF9e9S8/0.jpg)](https://www.youtube.com/watch?v=aAHSvF9e9S8)
+
+16-07-2018
+guia6_spaceship
+
+Integramos en el juego a la nave espacial que se puede controlar con el joystick, como lo hicimos en la segunda parte; solo que esta vez esta junto con los asteroides.
+
+[![Video](https://img.youtube.com/vi/SEokz4ttd_4/0.jpg)](https://www.youtube.com/watch?v=SEokz4ttd_4)
