@@ -1,0 +1,6 @@
+{
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328",
+    "port": "COM16",
+    "sketch": "guia7_impactos\\guia7_impactos.ino"
+}

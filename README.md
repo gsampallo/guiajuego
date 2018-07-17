@@ -62,8 +62,29 @@ Recibe los puntos x,y para dibujar en la pantalla, y el bitmap se extiende hasta
 [![Video](https://img.youtube.com/vi/aAHSvF9e9S8/0.jpg)](https://www.youtube.com/watch?v=aAHSvF9e9S8)
 
 16-07-2018
+**********
 guia6_spaceship
 
 Integramos en el juego a la nave espacial que se puede controlar con el joystick, como lo hicimos en la segunda parte; solo que esta vez esta junto con los asteroides.
 
 [![Video](https://img.youtube.com/vi/SEokz4ttd_4/0.jpg)](https://www.youtube.com/watch?v=SEokz4ttd_4)
+
+17-07-2018
+**********
+guia7_impactos
+
+Agregamos las colisiones entre los asteroides y la nave, ademas de una animacion para cuando existan impactos.
+
+En la imagen siguiente tenemos los puntos de la nave y de los asteroides, que tenemos que analizara para determinar si existen impactos o no.
+![alt text](https://raw.githubusercontent.com/gsampallo/guiajuego/master/posicion.png "Posicion")
+
+Las siguientes son las dos posibilidades de impactos que existen:
+
+![alt text](https://raw.githubusercontent.com/gsampallo/guiajuego/master/impacto.png "Impacto")
+
+Una vez que determinamos que el asteroide entro en la zona de peligro (listaAsteroides[i][1] < (x+24)) y que el asteroide aun esta en la pantalla (listaAsteroides[i][1] > 0) se presentan dos situaciones:
+Situacion 1, que el asteroide impacte a la nave por debajo, donde debemos controlar que (y) < listaAsteroides[i][1] y listaAsteroides[i][1] < (y+16)
+Situacion 2, el asteroide impacte a la nave por encima, donde debemos controlar que (listaAsteroides[i][1] + 16) > (y) y (listaAsteroides[i][1] + 16) < (y+16)
+
+
+[![Video](https://img.youtube.com/vi/3CT9MAgIodY/0.jpg)](https://www.youtube.com/watch?v=3CT9MAgIodY)
