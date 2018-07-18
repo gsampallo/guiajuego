@@ -88,3 +88,16 @@ Situacion 2, el asteroide impacte a la nave por encima, donde debemos controlar 
 
 
 [![Video](https://img.youtube.com/vi/3CT9MAgIodY/0.jpg)](https://www.youtube.com/watch?v=3CT9MAgIodY)
+
+18-08-2018
+**********
+guia8_disparos
+
+Se incorpora a la nave la posibilidad de disparar contra los asteroides. Se implementa por medio de un array, donde definimos una cantidad maxima de disparos y vamos recorriendo el array cada vez que debemos dibujarlos en la pantalla. Cuando los disparos que realizamos exceden esa cantidad maxima, se van sobreescribiendo.
+Todo se implementa por medio de dos funciones: 
+
+nuevoDisparo(int x,int y) recibe como parametros la posicion (x,y) de la nave, calcula el valor medio, de forma que el disparo salga desde el frente de la nave. Carga en el array el nuevo disparo y su posicion. En caso que exceden los 32 disparos maximos, se sobreescribe el array.
+dibubjarDisparos() Se ocupa de recorrer el array y dibujar los disparos en la pantalla.
+
+[![Video](https://img.youtube.com/vi/-ogrUrgD27o/0.jpg)](https://www.youtube.com/watch?v=-ogrUrgD27o)
+
