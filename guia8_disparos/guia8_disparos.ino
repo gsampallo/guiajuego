@@ -50,7 +50,7 @@ void loop() {
   
   if(juego) {
 
-
+    for(int i=0;i<nroAsteroides;i++) {
       if(((listaAsteroides[i][0]+16) < 0) && (listaAsteroides[i][1] > 0)) {
         listaAsteroides[i][1] = -1;
         asteroides++;
