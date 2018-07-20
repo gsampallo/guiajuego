@@ -101,3 +101,11 @@ dibubjarDisparos() Se ocupa de recorrer el array y dibujar los disparos en la pa
 
 [![Video](https://img.youtube.com/vi/-ogrUrgD27o/0.jpg)](https://www.youtube.com/watch?v=-ogrUrgD27o)
 
+20-02-2018
+**********
+guia9_destruir_asteroides
+
+Incluimos la logica para destruir los asteroides. Incorporamos varias funciones para el manejo de las explosiones de los asteroides, empleamos el mismo concepto que para los disparos.
+
+[![Video](https://img.youtube.com/vi/i3VGcISwTac/0.jpg)](https://www.youtube.com/watch?v=i3VGcISwTac)
+
